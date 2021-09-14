@@ -9,10 +9,10 @@ const GreatOperationButton = () => {
                 <button className="btn">-</button>
                 <button className="bnt">*</button>
                 <button className="btn">/</button>
-                <button className="btn">+</button>
             </div>
         </div>
     );
 };
+
 
 export default GreatOperationButton;

@@ -25,7 +25,6 @@ h1{
 }
 main{
     height: 95vh;
-    background-color: rebeccapurple;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -36,27 +35,37 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 70%;
+    height: 60%;
+    border-radius: 20px;
     width: 20%;
-    border: solid 1px silver;
+    border: solid 2px silver;
+    border-left: solid 5px silver;
+    border-bottom: solid 3px silver;
     box-sizing: border-box;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    background-image: url("./../img/flou.png");
+    backdrop-filter: blur(50px);
+    box-shadow: -10px 25px 23px 10px rgba(0,0,0,0.7);
 }
 
 .size_screen{
-    height: 10%;
-    background-color: red;
+    border-radius: 15px;
+    height: 23%;
 }
 form{
     height: 100%;
+    border-radius: 15px;
 }
 .screen{
+    border-radius: 10px;
     width: 100%;
     height: 100%;
-    border: 1px silver solid;
+    border: solid 1px rgba(70, 64, 64, 0.32);
     outline: none;
-    background-color: #9dc5c3;
-    background-image: linear-gradient(315deg, rgba(157, 197, 195, 0.31) 0%, rgba(94, 92, 92, 0.3) 74%);
+    background-color: rgba(149, 171, 171, 0.52);
+    backdrop-filter: blur(3px);
+    color: #464040;
+
 }
 .but_cont{
     display: grid;
@@ -72,10 +81,20 @@ form{
     "but_enter but_enter but_enter";
 ;
 }
+button{
+    border: 1px solid silver;
+    background-color: rgba(149, 171, 171, 0.52);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
 
+}
+button:hover{
+    background-color: rgba(56, 50, 50, 0.2);
+}
 .btn_n{
     font-size: 3.5rem;
-    color: gray;
+    color: #464040;
 }
 
 .mag_but {
@@ -87,7 +106,7 @@ form{
 
 .mag_but button{
     font-size: 3.5rem;
-    color: gray;
+    color: #464040;
 }
 
 .button{
@@ -97,18 +116,18 @@ form{
 
 .but_enter button{
     width: 100%;
-    height: 100%;
     font-size: 3.5rem;
-    color: gray;
+    color: #464040;
 }
 
 .but_enter{
     grid-area: but_enter;
+    margin-right: 5px;
 }
 
 .plus{
     grid-area: plus;
     font-size: 3.5rem;
-    color: gray;
-    width: 100%;
+    color: #464040;
+
 }
