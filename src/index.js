@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TheTitle from './title';
 import './index.css';
+import TheTitle from "./components/TheTitle";
+import Calculator from "./components/Calculator";
 ReactDOM.render(
   <React.StrictMode>
-      <TheTitle />
+      <TheTitle/>
+      <Calculator />
   </React.StrictMode>,
   document.getElementById('root')
 );
+
 
