@@ -7,12 +7,16 @@ import MagnificientEqualButton from "./MagnificientEqualButton";
 const Calculator = () => {
     return (
         <div>
-            <div>
-                <BeautifullScreen />
-                <AmazingNumberButton />
-                <GreatOperationButton />
-                <MagnificientEqualButton />
-            </div>
+            <main>
+                <div className="main">
+                    <BeautifullScreen />
+                    <div className="button">
+                        <AmazingNumberButton />
+                        <GreatOperationButton />
+                    </div>
+                    <MagnificientEqualButton />
+                </div>
+            </main>
         </div>
     );
 };

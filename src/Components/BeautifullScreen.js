@@ -4,7 +4,7 @@ const BeautifullScreen = () => {
     return (
         <div>
             <form>
-                <input type='text' placeholder='Result'/>
+                <input className="screen" type='text' placeholder='Result'/>
             </form>
         </div>
     );

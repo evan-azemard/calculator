@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #b3cdd1;
+    background-image: linear-gradient(315deg, rgba(179, 205, 209, 0.59) 0%, rgba(159, 164, 196, 0.63) 74%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #736b6b;
+    height: 5vh;
+    align-items: center;
+}
+
+h1{
+    font-size: 1.5em;
+}
+main{
+    height: 95vh;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 70%;
+    width: 30%;
+    border: solid 1px silver;
+    box-sizing: border-box;
+}
+
+.screen{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #9dc5c3;
+    background-image: linear-gradient(315deg, rgba(157, 197, 195, 0.31) 0%, rgba(94, 92, 92, 0.3) 74%);
+}
+.but_cont{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.mag_but {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ". . "
+    "but_cont mag_but ."
+    ". . ";
+}
+
+.but_cont { grid-area: but_cont; }
+
+.mag_but { grid-area: mag_but; }
+
+
