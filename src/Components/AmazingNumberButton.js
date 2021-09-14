@@ -2,7 +2,7 @@ import React from 'react';
 import MagnificientEqualButton from "./MagnificientEqualButton";
 
 
-const AmazingNumberButton = () => {
+const AmazingNumberButton = (props) => {
     return (
         <div>
             <div className="but_cont">
@@ -12,7 +12,7 @@ const AmazingNumberButton = () => {
                 <button className="btn_n">4</button>
                 <button className="btn_n">5</button>
                 <button className="btn_n">6</button>
-                <button className="btn_n">1</button>
+                <button className="btn_n">{props.label}</button>
                 <button className="btn_n">2</button>
                 <button className="bnt plus">+</button>
                 <button className="btn_n">3</button>

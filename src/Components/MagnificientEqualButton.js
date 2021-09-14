@@ -3,7 +3,7 @@ import React from 'react';
 const MagnificientEqualButton = () => {
     return (
             <div className="but_enter">
-                <button>=</button>
+                <button className="best_but">=</button>
             </div>
     );
 };

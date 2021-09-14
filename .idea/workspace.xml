@@ -7,9 +7,12 @@
     <list default="true" id="3db970d5-debd-42ca-92e8-fdcbb2033102" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AmazingNumberButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AmazingNumberButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BeautifullScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BeautifullScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/GreatOperationButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GreatOperationButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MagnificientEqualButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MagnificientEqualButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TheTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TheTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/_settings.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631527093606</updated>
       <workItem from="1631527094956" duration="8066000" />
-      <workItem from="1631602723442" duration="20349000" />
+      <workItem from="1631602723442" duration="26362000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1631527928137</created>
@@ -113,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631621169584</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="css ok">
+      <created>1631626549566</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631626549566</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +148,8 @@
     <MESSAGE value="Component" />
     <MESSAGE value="style" />
     <MESSAGE value="save" />
-    <option name="LAST_COMMIT_MESSAGE" value="save" />
+    <MESSAGE value="css ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="css ok" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

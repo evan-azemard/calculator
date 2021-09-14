@@ -6,7 +6,6 @@ import Calculator from "./Components/Calculator";
 
 ReactDOM.render(
   <React.StrictMode>
-      <TheTitle/>
       <Calculator />
   </React.StrictMode>,
   document.getElementById('root')
