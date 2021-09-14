@@ -2,7 +2,7 @@ import React from 'react';
 
 const BeautifullScreen = () => {
     return (
-        <div>
+        <div className='size_screen'>
             <form>
                 <input className="screen" type='text' placeholder='Result'/>
             </form>

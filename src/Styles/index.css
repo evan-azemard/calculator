@@ -33,44 +33,82 @@ main{
 }
 
 .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 70%;
-    width: 30%;
+    width: 20%;
     border: solid 1px silver;
     box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
 }
 
+.size_screen{
+    height: 10%;
+    background-color: red;
+}
+form{
+    height: 100%;
+}
 .screen{
     width: 100%;
-    border: none;
+    height: 100%;
+    border: 1px silver solid;
     outline: none;
     background-color: #9dc5c3;
     background-image: linear-gradient(315deg, rgba(157, 197, 195, 0.31) 0%, rgba(94, 92, 92, 0.3) 74%);
 }
 .but_cont{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0 0;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . ."
+    ". plus plus"
+    "but_enter but_enter but_enter";
+;
+}
+
+.btn_n{
+    font-size: 3.5rem;
+    color: gray;
 }
 
 .mag_but {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
+}
+
+.mag_but button{
+    font-size: 3.5rem;
+    color: gray;
 }
 
 .button{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    ". . "
-    "but_cont mag_but ."
-    ". . ";
 }
 
-.but_cont { grid-area: but_cont; }
+.but_enter button{
+    width: 100%;
+    height: 100%;
+    font-size: 3.5rem;
+    color: gray;
+}
 
-.mag_but { grid-area: mag_but; }
+.but_enter{
+    grid-area: but_enter;
+}
 
-
+.plus{
+    grid-area: plus;
+    font-size: 3.5rem;
+    color: gray;
+    width: 100%;
+}

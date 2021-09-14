@@ -1,6 +1,6 @@
 import React from 'react';
-import GreatOperationButton from "./GreatOperationButton";
 import MagnificientEqualButton from "./MagnificientEqualButton";
+import GreatOperationButton2 from "./GreatOperationButton";
 
 
 const AmazingNumberButton = () => {
@@ -17,6 +17,7 @@ const AmazingNumberButton = () => {
                 <button className="btn_n">5</button>
                 <button className="btn_n">0</button>
                 <button className="btn_n">1</button>
+                <MagnificientEqualButton />
             </div>
         </div>
     );
