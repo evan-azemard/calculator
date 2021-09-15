@@ -8,8 +8,8 @@ import Plus from "./Plus";
 
 const Calculator = () => {
     const [value, setValue] = useState("0");
-    const [memory, setMemory] = useState("null");
-    const [operator, setOperator] = useState("null");
+    const [memory, setMemory] = useState("null5");
+    const [operator, setOperator] = useState("null6");
 
     const PressButton = content => () => {
 
@@ -17,8 +17,8 @@ const Calculator = () => {
 
         if (content === "Supp") {
             setValue("0");
-            setMemory("null");
-            setOperator("null");
+            setMemory("null3");
+            setOperator("null4");
             return;
         }
 
@@ -54,24 +54,22 @@ const Calculator = () => {
             if (!operator) return;
 
             if (operator === '+'){
-                setValue((memory + parseFloat(value)).toString());
+                setValue((memory + parseFloat(value)));
             }else  if (operator === "-"){
-                setValue((memory - parseFloat(value).toString()));
+                setValue((memory - parseFloat(value)));
             }else if (operator === '*'){
-                setValue((memory * parseFloat(value)).toString());
+                setValue((memory * parseFloat(value)));
             }else if (operator === "/"){
-                setValue((memory / parseFloat(value).toString()))
+                setValue((memory / parseFloat(value)))
             }
-            setMemory(parseFloat(value));
-            setValue("null");
-            setOperator("null")
+            setOperator("null2")
             return;
         }
 
 
 
 
-        setValue((parseFloat(num) + content).toString())
+        setValue((parseFloat(num) + content))
     };
     return (
         <div>
