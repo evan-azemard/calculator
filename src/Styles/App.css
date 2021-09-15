@@ -87,6 +87,9 @@ form{
     background-color: rgba(149, 171, 171, 0.52);
     backdrop-filter: blur(3px);
     color: #464040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 .but_cont{

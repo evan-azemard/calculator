@@ -1,9 +1,10 @@
+
 import React from 'react';
 
-const BeautifullScreen = () => {
+const BeautifullScreen = (props) => {
     return (
         <div className='size_screen'>
-                <div className="screen"> </div>
+            <div className="screen">{props.props} </div>
         </div>
     );
 };

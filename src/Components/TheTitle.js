@@ -1,10 +1,10 @@
 import React from "react";
 
-const TheTitle = () => {
+const TheTitle = (props) => {
     return (
         <div>
             <div className="TheTitle">
-                <h1>Calculator9000</h1>
+                <h1>{props.text}</h1>
             </div>
         </div>
     );

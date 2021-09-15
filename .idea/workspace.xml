@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db970d5-debd-42ca-92e8-fdcbb2033102" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AmazingNumberButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AmazingNumberButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BeautifullScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BeautifullScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/GreatOperationButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GreatOperationButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MagnificientEqualButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MagnificientEqualButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TheTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TheTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -61,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631527093606</updated>
       <workItem from="1631527094956" duration="8066000" />
-      <workItem from="1631602723442" duration="30303000" />
+      <workItem from="1631602723442" duration="42361000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1631527928137</created>
@@ -126,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631639338405</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="use props job2">
+      <created>1631690333474</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631690333474</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +166,8 @@
     <MESSAGE value="save" />
     <MESSAGE value="css ok" />
     <MESSAGE value="css update" />
-    <option name="LAST_COMMIT_MESSAGE" value="css update" />
+    <MESSAGE value="use props job2" />
+    <option name="LAST_COMMIT_MESSAGE" value="use props job2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
