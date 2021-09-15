@@ -4,12 +4,74 @@ import BeautifullScreen from "./BeautifullScreen";
 import GreatOperationButton from "./GreatOperationButton";
 import TheTitle from "./TheTitle";
 import MagnificientEqualButton from "./MagnificientEqualButton";
+import Plus from "./Plus";
 
 const Calculator = () => {
-    const [value, setValue] = useState("bonjour");
+    const [value, setValue] = useState("0");
+    const [memory, setMemory] = useState("null");
+    const [operator, setOperator] = useState("null");
 
     const PressButton = content => () => {
-        setValue((parseFloat(value) + content).toString())
+
+        const num = parseFloat(value);
+
+        if (content === "Supp") {
+            setValue("0");
+            setMemory("null");
+            setOperator("null");
+            return;
+        }
+
+        if (content === "+" ) {
+            setMemory(parseFloat(value));
+            setValue("0");
+            setOperator("+")
+            return;
+        }
+
+        if (content === "*" ) {
+            setMemory(parseFloat(value));
+            setValue("0");
+            setOperator("*");
+            return;
+        }
+
+        if (content === "-" ) {
+            setMemory(parseFloat(value));
+            setValue("0");
+            setOperator("-")
+            return;
+        }
+
+        if (content === "/" ) {
+            setMemory(parseFloat(value));
+            setValue("0");
+            setOperator("/");
+            return;
+        }
+
+        if (content === "=" ) {
+            if (!operator) return;
+
+            if (operator === '+'){
+                setValue((memory + parseFloat(value)).toString());
+            }else  if (operator === "-"){
+                setValue((memory - parseFloat(value).toString()));
+            }else if (operator === '*'){
+                setValue((memory * parseFloat(value)).toString());
+            }else if (operator === "/"){
+                setValue((memory / parseFloat(value).toString()))
+            }
+            setMemory(parseFloat(value));
+            setValue("null");
+            setOperator("null")
+            return;
+        }
+
+
+
+
+        setValue((parseFloat(num) + content).toString())
     };
     return (
         <div>
@@ -30,7 +92,7 @@ const Calculator = () => {
                             <AmazingNumberButton onButtonClick={PressButton} content="3"/>
                             <AmazingNumberButton onButtonClick={PressButton} content="0"/>
                             <MagnificientEqualButton onButtonClick={PressButton} content="="/>
-                            <button onButtonClick={PressButton} className="btn plus">+</button>
+                            <Plus onButtonClick={PressButton} content="+" />
                         </div>
                         <div className="mag_but">
                             <GreatOperationButton onButtonClick={PressButton} content="Supp"/>

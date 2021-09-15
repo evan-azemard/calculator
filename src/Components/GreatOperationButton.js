@@ -1,9 +1,10 @@
 import React from 'react';
+import Plus from "./Plus";
 
 const GreatOperationButton = ({content, onButtonClick, type}) => {
     return (
         <>
-            <button  className={`btn ${content ==="0" ? "zero" : ""} ${type || ""}`} onClick={onButtonClick(content)}>
+            <button type="operator" className={`btn ${content ==="0" ? "zero" : ""} ${type || ""}`} onClick={onButtonClick(content)}>
                 {content}
 
             </button>
@@ -13,3 +14,4 @@ const GreatOperationButton = ({content, onButtonClick, type}) => {
 
 
 export default GreatOperationButton;
+
