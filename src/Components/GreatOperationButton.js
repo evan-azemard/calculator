@@ -1,16 +1,10 @@
 import React from 'react';
 
-const GreatOperationButton = () => {
+const GreatOperationButton = (props) => {
     return (
-        <div>
-            <div className="mag_but">
-                <button className="btn">Supp</button>
-                <button className="btn">,</button>
-                <button className="btn">-</button>
-                <button className="bnt">*</button>
-                <button className="btn">/</button>
-            </div>
-        </div>
+        <>
+            <button className="btn">{props.label}</button>
+        </>
     );
 };
 
