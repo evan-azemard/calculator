@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db970d5-debd-42ca-92e8-fdcbb2033102" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/ItSOverNineThousand.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -61,7 +62,7 @@
       <updated>1631527093606</updated>
       <workItem from="1631527094956" duration="8066000" />
       <workItem from="1631602723442" duration="50775000" />
-      <workItem from="1631727802759" duration="12073000" />
+      <workItem from="1631727802759" duration="15099000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1631527928137</created>
@@ -147,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631711112574</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="job 3 and 4">
+      <created>1631782526843</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1631782526843</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +184,8 @@
     <MESSAGE value="use props job2" />
     <MESSAGE value="props numbers" />
     <MESSAGE value="save" />
-    <option name="LAST_COMMIT_MESSAGE" value="save" />
+    <MESSAGE value="job 3 and 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="job 3 and 4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

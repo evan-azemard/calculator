@@ -5,66 +5,17 @@ import GreatOperationButton from "./GreatOperationButton";
 import TheTitle from "./TheTitle";
 import MagnificientEqualButton from "./MagnificientEqualButton";
 import Plus from "./Plus";
+import ItSOverNineThousand from "./ItSOverNineThousand";
 
 const Calculator = () => {
     const [value, setValue] = useState("0");
-    const [memory, setMemory] = useState("null5");
+    const [memory, setMemory] = useState("");
 
-    const PressButton = content => () => {
-
-        const num = parseFloat(value);
-
-        if (content === "Supp") {
-            setMemory("");
-            return;
-        }
-
-        if (content === "+" ) {
-            setMemory(memory + "+")
-            return;
-        }
-
-        if (content === "*" ) {
-            setMemory(memory + "*");
-            return;
-        }
-
-        if (content === "-" ) {
-            setMemory(memory + "-")
-            return;
-        }
-
-        if (content === "/" ) {
-            setMemory(memory + "/");
-            return;
-        }
-
-        if (typeof val === "number"){
-            setMemory(memory + content);
-            return;
-        }
-        if (content === "1" || content === "2" || content === "3" || content === "4" || content === "5" || content === "6" || content === "7" || content === "8" || content === "9" || content === "0" ) {
-            setMemory(memory + content);
-            return;
-        }
-
-        if (content === "=" ) {
-            const val = eval(memory);
-            if (val > 9000){
-
-                setMemory("It’s Over 9000 !!!")
-            }
-            else if (val < 9000) {
-                setMemory(eval(memory))
-            }
-            return;
-        }
-
-
-
-        setValue((parseFloat(num) + content))
-
+    const PressButton = content => () =>
+    {
+        ItSOverNineThousand(content,setMemory,memory,setValue,value);
     };
+
     return (
         <div>
             <main>
