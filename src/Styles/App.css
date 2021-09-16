@@ -90,6 +90,7 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 2rem;
 
 }
 .but_cont{

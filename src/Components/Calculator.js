@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {memo, useState} from 'react';
 import AmazingNumberButton from "./AmazingNumberButton";
 import BeautifullScreen from "./BeautifullScreen";
 import GreatOperationButton from "./GreatOperationButton";
@@ -9,73 +9,67 @@ import Plus from "./Plus";
 const Calculator = () => {
     const [value, setValue] = useState("0");
     const [memory, setMemory] = useState("null5");
-    const [operator, setOperator] = useState("null6");
 
     const PressButton = content => () => {
 
         const num = parseFloat(value);
 
         if (content === "Supp") {
-            setValue("0");
-            setMemory("null3");
-            setOperator("null4");
+            setMemory("");
             return;
         }
 
         if (content === "+" ) {
-            setMemory(parseFloat(value));
-            setValue("0");
-            setOperator("+")
+            setMemory(memory + "+")
             return;
         }
 
         if (content === "*" ) {
-            setMemory(parseFloat(value));
-            setValue("0");
-            setOperator("*");
+            setMemory(memory + "*");
             return;
         }
 
         if (content === "-" ) {
-            setMemory(parseFloat(value));
-            setValue("0");
-            setOperator("-")
+            setMemory(memory + "-")
             return;
         }
 
         if (content === "/" ) {
-            setMemory(parseFloat(value));
-            setValue("0");
-            setOperator("/");
+            setMemory(memory + "/");
+            return;
+        }
+
+        if (typeof val === "number"){
+            setMemory(memory + content);
+            return;
+        }
+        if (content === "1" || content === "2" || content === "3" || content === "4" || content === "5" || content === "6" || content === "7" || content === "8" || content === "9" || content === "0" ) {
+            setMemory(memory + content);
             return;
         }
 
         if (content === "=" ) {
-            if (!operator) return;
+            const val = eval(memory);
+            if (val > 9000){
 
-            if (operator === '+'){
-                setValue((memory + parseFloat(value)));
-            }else  if (operator === "-"){
-                setValue((memory - parseFloat(value)));
-            }else if (operator === '*'){
-                setValue((memory * parseFloat(value)));
-            }else if (operator === "/"){
-                setValue((memory / parseFloat(value)))
+                setMemory("It’s Over 9000 !!!")
             }
-            setOperator("null2")
+            else if (val < 9000) {
+                setMemory(eval(memory))
+            }
             return;
         }
 
 
 
-
         setValue((parseFloat(num) + content))
+
     };
     return (
         <div>
             <main>
                 <div className="main">
-                    <BeautifullScreen  props={value}/>
+                    <BeautifullScreen  props={memory}/>
                     <TheTitle text="Calculator9000"/>
                     <div className="button">
                         <div className="but_cont">
