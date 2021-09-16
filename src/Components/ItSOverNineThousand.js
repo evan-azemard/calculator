@@ -1,8 +1,6 @@
 import React from 'react';
 
-function ItSOverNineThousand (content,setMemory,memory,setValue,value){
-
-    const num = parseFloat(value);
+function ItSOverNineThousand (content,setMemory,memory){
 
         if (content === "Supp")
         {
@@ -23,6 +21,11 @@ function ItSOverNineThousand (content,setMemory,memory,setValue,value){
         {
             setMemory(memory + "-")
             return;
+        }
+        if (content === "," )
+        {
+        setMemory(memory + ",")
+        return;
         }
         if (content === "/" )
         {
@@ -48,8 +51,6 @@ function ItSOverNineThousand (content,setMemory,memory,setValue,value){
             }
             return;
         }
-
-    setValue((parseFloat(num) + content))
 
 }
 

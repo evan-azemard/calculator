@@ -1,10 +1,8 @@
 import React from 'react';
 
-const Plus = ({content, onButtonClick, type }) => {
+const Plus = ({content, onButtonClick }) => {
     return (
-            <button type="operator" className={`btn plus ${content ==="0" ? "zero" : ""} ${type || ""}`} onClick={onButtonClick(content)}>
-                {content}
-            </button>
+            <button type="operator" className="btn plus" onClick={onButtonClick(content)}>{content}</button>
     );
 };
 

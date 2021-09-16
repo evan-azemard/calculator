@@ -1,11 +1,9 @@
 import React from 'react';
 
-const MagnificientEqualButton = ({content, onButtonClick, type }) => {
+const MagnificientEqualButton = ({content, onButtonClick }) => {
     return (
             <div className="but_enter">
-                <button  type="operator" className={`best_but ${content ==="0" ? "zero" : ""} ${type || ""}`} onClick={onButtonClick(content)}>
-                    {content}
-                </button>
+                <button  type="operator" className="best_but" onClick={onButtonClick(content)}>{content}</button>
             </div>
     );
 };

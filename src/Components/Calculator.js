@@ -6,15 +6,17 @@ import TheTitle from "./TheTitle";
 import MagnificientEqualButton from "./MagnificientEqualButton";
 import Plus from "./Plus";
 import ItSOverNineThousand from "./ItSOverNineThousand";
+import Save from "./Save";
 
 const Calculator = () => {
-    const [value, setValue] = useState("0");
+
     const [memory, setMemory] = useState("");
 
     const PressButton = content => () =>
     {
-        ItSOverNineThousand(content,setMemory,memory,setValue,value);
+        ItSOverNineThousand(content,setMemory,memory);
     };
+
 
     return (
         <div>
@@ -22,6 +24,7 @@ const Calculator = () => {
                 <div className="main">
                     <BeautifullScreen  props={memory}/>
                     <TheTitle text="Calculator9000"/>
+                    <Save text="Save" onButtonClick={PressButton}/>
                     <div className="button">
                         <div className="but_cont">
                             <AmazingNumberButton onButtonClick={PressButton} content="7"/>

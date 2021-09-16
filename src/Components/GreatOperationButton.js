@@ -1,13 +1,10 @@
 import React from 'react';
 import Plus from "./Plus";
 
-const GreatOperationButton = ({content, onButtonClick, type}) => {
+const GreatOperationButton = ({content, onButtonClick}) => {
     return (
         <>
-            <button type="operator" className={`btn ${content ==="0" ? "zero" : ""} ${type || ""}`} onClick={onButtonClick(content)}>
-                {content}
-
-            </button>
+            <button type="operator" className="btn" onClick={onButtonClick(content)}>{content}</button>
         </>
     );
 };

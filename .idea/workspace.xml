@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db970d5-debd-42ca-92e8-fdcbb2033102" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/ItSOverNineThousand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Save.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serveur/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AmazingNumberButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AmazingNumberButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/GreatOperationButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GreatOperationButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ItSOverNineThousand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ItSOverNineThousand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MagnificientEqualButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MagnificientEqualButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Plus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Plus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +70,7 @@
       <updated>1631527093606</updated>
       <workItem from="1631527094956" duration="8066000" />
       <workItem from="1631602723442" duration="50775000" />
-      <workItem from="1631727802759" duration="15099000" />
+      <workItem from="1631727802759" duration="20572000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1631527928137</created>
@@ -155,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631782526843</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add ItSOverNineThousand">
+      <created>1631785443468</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1631785443468</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +200,20 @@
     <MESSAGE value="props numbers" />
     <MESSAGE value="save" />
     <MESSAGE value="job 3 and 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="job 3 and 4" />
+    <MESSAGE value="add ItSOverNineThousand" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ItSOverNineThousand" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Components/ItSOverNineThousand.js</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

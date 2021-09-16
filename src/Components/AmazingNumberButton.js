@@ -1,13 +1,11 @@
 import React from 'react';
 
 
-const AmazingNumberButton = ({content, onButtonClick, type }) => {
+const AmazingNumberButton = ({content, onButtonClick }) => {
     return (
         <>
-            <button className={`btn_n ${content ==="0" ? "zero" : ""} ${type || ""}`} onClick={onButtonClick(content)}
-            >
-                {content}
-            </button>        </>
+            <button className="btn_n" onClick={onButtonClick(content)}>{content}</button>
+        </>
     );
 };
 
